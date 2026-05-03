@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo.git'
+                echo 'already checkedout'
             }
         }
 
